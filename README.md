@@ -8,8 +8,7 @@ This dataset comprises **5 million synthetic finger vein images** generated usin
 
 ### ✨News ！！！ 
 - **[2025.05] Dataset v1.0 officially released!**
-- **[2025.03] Added new visualization tools for shape/pattern masks**
-- **[2024.12] Initial beta version available for testing**
+
 
 ### Key Characteristics
 - **Total samples**: 5 Million (Size: 320*640)
@@ -107,43 +106,18 @@ Each image is stored in 8-bit grayscale format (320×640 pixels). The naming con
 </annotation>
 ```
 
-Annotations are provided in XML format containing:
-- Finger joint coordinates (x,y)
-- Vein ROI bounding box (x,y,width,height)
-- Variation type metadata
-Example parsing:
-```python
-import xml.etree.ElementTree as ET
-tree = ET.parse("annotation.xml")
-root = tree.getroot()
-```
-
 ## Inter-class Variations
 The dataset contains systematic variations to simulate real-world conditions:
 
 | Variation Type       | Parameters                          |
 |----------------------|-------------------------------------|
-| Geometric            | Shift (±15px), Rotate (±15°), Scale (±10%) |
+| Geometric            | Shift (±15px), Rotate (±15°), Scale (±10%) ,Roll (±15°) |
 | Photometric          | Exposure (±30%), Contrast (±20%)    |
 | Degradation          | Motion blur (kernel size 3-7), Optical blur (σ=1-3) |
 
 ## Mask Visualizations
 ### Shape Mask
-Binary masks representing finger contours:
-```python
-shape_mask = cv2.imread("shape_masks/00001_001.png", 0)
-plt.imshow(shape_mask, cmap='gray')
-```
-![Shape Mask Example](docs/shape_mask_example.png)
-
 ### Pattern Mask
-Vein pattern masks with morphological enhancements:
-```python
-pattern_mask = cv2.imread("pattern_masks/00001_001.png", 0)
-plt.imshow(pattern_mask, cmap='jet')
-```
-![Pattern Mask Example](docs/pattern_mask_example.png)
-
 ## Citation
 If you use this dataset in your research, please cite:
 ```
