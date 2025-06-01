@@ -4,10 +4,11 @@
 [![DOI](https://zenodo.org/badge/DOI/xxxx.svg)](https://doi.org/xxxx)
 
 ## 📚Overview
-This dataset comprises **5 million synthetic finger vein images** generated using the **FVeinSyn** framework, specifically designed to advance research in **finger vein recognition**. The primary objective is to provide a comprehensive resource for the development and evaluation of algorithms within the biometric field.
+This dataset comprises **5 million synthetic finger vein images** generated using the **FVeinSyn** framework, specifically designed to advance research in **finger vein recognition**. The primary objective is to provide a comprehensive resource for the development. This dataset is the **largest publicly available finger vein dataset** to date‌.
 
 ### ✨News ！！！ 
 - **[2025.05] Dataset v1.0 officially released!**
+- **[2025.05] Datasets will be released progressively!**
 
 
 ### Key Characteristics
@@ -47,15 +48,18 @@ FingerVeinSyn-5M/
 └── README.md            # This document
 ```
 
-## Raw Data Loading
-The raw finger vein images can be loaded using standard image processing libraries:
+## Raw Image Data Loading
+The raw finger vein images can be Viewed using:
+
+`python Viewer.py --id [ID] --sample [SampleNum] --type [VariationType]` 
 ```python
-import cv2
-img = cv2.imread("path/to/image.png", cv2.IMREAD_GRAYSCALE)
+python Viewer.py --id 4550 --sample 6 --type Rotate
 ```
-Each image is stored in 8-bit grayscale format (320×640 pixels). The naming convention follows: `[ID]_[SampleNum]_[VariationType].png`.
+Image naming format: `[ID]_[SampleNum]_[VariationType].png`
+
 
 ## Annotation Data
+*Example of annotation file*
 ```
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Finger vein annotation data -->
@@ -106,6 +110,16 @@ Each image is stored in 8-bit grayscale format (320×640 pixels). The naming con
 </annotation>
 ```
 
+The annotation can be Viewed using:
+
+`python Viewer.py --id [ID] --sample [SampleNum] --type [VariationType]` 
+```python
+python annotationViewer.py --id 666 --sample 66 --type Multi
+```
+Annotation naming format: `[ID]_[SampleNum]_[VariationType].xml`
+
+
+
 ## Inter-class Variations
 The dataset contains systematic variations to simulate real-world conditions:
 
@@ -121,14 +135,10 @@ The dataset contains systematic variations to simulate real-world conditions:
 ## Citation
 If you use this dataset in your research, please cite:
 ```
-[Author(s)]. (Year). Dataset Title. Version X.X. [Publisher]. DOI:xxxx
+[Author(s)]. DOI:xxxx
 ```
-
-## License
-This dataset is licensed under [license name] (see [LICENSE](LICENSE) file).
 
 ## Contact
 For questions or reporting issues:
-- Maintainer: [Name]
-- Email: [contact email]
-- Issues: [GitHub Issues page
+- *Yinfan Wang*, *Jie Gui*
+- Email: 230239767@seu.edu.cn
