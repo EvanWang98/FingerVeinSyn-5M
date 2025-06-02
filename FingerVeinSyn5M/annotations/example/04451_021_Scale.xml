@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<annotation>
+  <image file="04451_021_Scale.png" mask="04451_021_Scale.png" width="600" height="300">
+    <IntraVar>
+      <rotation>
+        <angle>0.00</angle>
+      </rotation>
+      <shift>
+        <x_offset>0.00</x_offset>
+        <y_offset>0.00</y_offset>
+      </shift>
+      <roll>0.00</roll>
+      <scale>1.15</scale>
+      <IsRoll>False</IsRoll>
+      <IsShift>False</IsShift>
+      <IsRotate>False</IsRotate>
+      <IsScale>True</IsScale>
+      <IsExposure>False</IsExposure>
+      <IsMotionBlur>False</IsMotionBlur>
+      <IsOpticalBlur>False</IsOpticalBlur>
+      <IsSkinScatter>False</IsSkinScatter>
+    </IntraVar>
+    <bbox>
+      <center_x>258.75</center_x>
+      <center_y>170.75</center_y>
+      <width>552.00</width>
+      <height>158.70</height>
+    </bbox>
+    <joint_points>
+      <point>
+        <x>6.83</x>
+        <y>172.46</y>
+      </point>
+      <point>
+        <x>239.13</x>
+        <y>168.24</y>
+      </point>
+      <point>
+        <x>437.24</x>
+        <y>170.64</y>
+      </point>
+      <point>
+        <x>587.53</x>
+        <y>172.46</y>
+      </point>
+    </joint_points>
+  </image>
+</annotation>
