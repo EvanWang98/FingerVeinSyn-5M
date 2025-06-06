@@ -137,15 +137,27 @@ The dataset contains systematic variations to simulate real-world conditions:
 | Variation Type       | Parameters                          |
 |----------------------|-------------------------------------|
 | Geometric            | Shift (±15px), Rotate (±15°), Scale (±10%) ,Roll (±15°) |
-| Photometric          | Exposure (±30%), Contrast (±20%)    |
-| Degradation          | Motion blur (kernel size 3-7), Optical blur (σ=1-3) |
+| Photometric          | Under/Over-Exposure|
+| Degradation          | Motion blur, Optical blur, Shin Scatter|
 
 ## Mask and BBox Visualizations
+|       |       |       |       |       |       |
+|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+| <img src="mask_and_bbox visualization/04551_001_Shift.png" width="120"><br><center><font size="6"><em>Shift</em></font></center> | <img src="mask_and_bbox_visualization/04551_003_Shift.png" width="120"><br><center><font size="6"><em>Shift</em></font></center> | <img src="mask_and_bbox_visualization/04551_005_Shift.png" width="120"><br><center><font size="6"><em>Shift</em></font></center> | <img src="mask_and_bbox_visualization/04551_006_Rotate.png" width="120"><br><center><font size="6"><em>Rotate</em></font></center> | <img src="mask_and_bbox_visualization/04551_008_Rotate.png" width="120"><br><center><font size="6"><em>Rotate</em></font></center> | <img src="mask_and_bbox_visualization/04551_016_Rotate.png" width="120"><br><center><font size="6"><em>Rotate</em></font></center> |
+| <img src="mask_and_bbox_visualization/04551_017_Scale.png" width="120"><br><center><font size="6"><em>Scale</em></font></center> | <img src="mask_and_bbox_visualization/04551_018_Scale.png" width="120"><br><center><font size="6"><em>Scale</em></font></center> | <img src="mask_and_bbox_visualization/04551_019_Scale.png" width="120"><br><center><font size="6"><em>Scale</em></font></center> | <img src="mask_and_bbox_visualization/04551_022_Roll.png" width="120"><br><center><font size="6"><em>Roll</em></font></center> | <img src="mask_and_bbox_visualization/04551_024_Roll.png" width="120"><br><center><font size="6"><em>Roll</em></font></center> | <img src="mask_and_bbox_visualization/04551_030_Roll.png" width="120"><br><center><font size="6"><em>Roll</em></font></center> |
+| <img src="mask_and_bbox_visualization/04551_031_OpticalBlur.png" width="120"><br><center><font size="6"><em>OpticalBlur</em></font></center> | <img src="mask_and_bbox_visualization/04551_033_OpticalBlur.png" width="120"><br><center><font size="6"><em>OpticalBlur</em></font></center> | <img src="mask_and_bbox_visualization/04551_035_OpticalBlur.png" width="120"><br><center><font size="6"><em>OpticalBlur</em></font></center> | <img src="mask_and_bbox_visualization/04551_041_Exposure.png" width="120"><br><center><font size="6"><em>Exposure</em></font></center> | <img src="mask_and_bbox_visualization/04551_042_Exposure.png" width="120"><br><center><font size="6"><em>Exposure</em></font></center> | <img src="mask_and_bbox_visualization/04551_044_Exposure.png" width="120"><br><center><font size="6"><em>Exposure</em></font></center> |
+| <img src="mask_and_bbox_visualization/04551_046_SkinScatter.png" width="120"><br><center><font size="6"><em>SkinScatter</em></font></center> | <img src="mask_and_bbox_visualization/04551_049_SkinScatter.png" width="120"><br><center><font size="6"><em>SkinScatter</em></font></center> | <img src="mask_and_bbox_visualization/04551_050_SkinScatter.png" width="120"><br><center><font size="6"><em>SkinScatter</em></font></center> | <img src="mask_and_bbox_visualization/04551_037_MotionBlur.png" width="120"><br><center><font size="6"><em>MotionBlur</em></font></center> | <img src="mask_and_bbox_visualization/04551_038_MotionBlur.png" width="120"><br><center><font size="6"><em>MotionBlur</em></font></center> | <img src="mask_and_bbox_visualization/04551_039_MotionBlur.png" width="120"><br><center><font size="6"><em>MotionBlur</em></font></center> |
+| <img src="mask_and_bbox_visualization/04551_053_Multi.png" width="120"><br><center><font size="6"><em>Multi</em></font></center> | <img src="mask_and_bbox_visualization/04551_099_Multi.png" width="120"><br><center><font size="6"><em>Multi</em></font></center> | <img src="mask_and_bbox_visualization/04551_078_Multi.png" width="120"><br><center><font size="6"><em>Multi</em></font></center> | <img src="mask_and_bbox_visualization/04551_079_Multi.png" width="120"><br><center><font size="6"><em>Multi</em></font></center> | <img src="mask_and_bbox_visualization/04551_098_Multi.png" width="120"><br><center><font size="6"><em>Multi</em></font></center> | <img src="mask_and_bbox_visualization/04551_085_Multi.png" width="120"><br><center><font size="6"><em>Multi</em></font></center> |
 
 ## Citation
 If you use this dataset in your research, please cite:
 ```
-[Author(s)]. DOI:xxxx
+@misc{wang2025fingerveinsyn5mmillionscaledatasetbenchmark,
+      title={FingerVeinSyn-5M: A Million-Scale Dataset and Benchmark for Finger Vein Recognition}, 
+      author={Yinfan Wang and Jie Gui and Baosheng Yu and Qi Li and Zhenan Sun and Juho Kannala and Guoying Zhao},
+      year={2025},
+      url={https://arxiv.org/abs/2506.03635}, 
+}
 ```
 
 ## Contact
