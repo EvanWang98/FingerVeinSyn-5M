@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<annotation>
+  <image file="04551_062_Multi.png" mask="04551_062_Multi.png" width="600" height="300">
+    <IntraVar>
+      <rotation>
+        <angle>0.00</angle>
+      </rotation>
+      <shift>
+        <x_offset>0.00</x_offset>
+        <y_offset>0.00</y_offset>
+      </shift>
+      <roll>0.00</roll>
+      <scale>0.99</scale>
+      <IsRoll>False</IsRoll>
+      <IsShift>False</IsShift>
+      <IsRotate>False</IsRotate>
+      <IsScale>True</IsScale>
+      <IsExposure>False</IsExposure>
+      <IsMotionBlur>False</IsMotionBlur>
+      <IsOpticalBlur>False</IsOpticalBlur>
+      <IsSkinScatter>True</IsSkinScatter>
+    </IntraVar>
+    <bbox>
+      <center_x>236.51</center_x>
+      <center_y>150.00</center_y>
+      <width>473.03</width>
+      <height>124.79</height>
+    </bbox>
+    <joint_points>
+      <point>
+        <x>2.29</x>
+        <y>141.93</y>
+      </point>
+      <point>
+        <x>213.93</x>
+        <y>160.64</y>
+      </point>
+      <point>
+        <x>374.81</x>
+        <y>155.35</y>
+      </point>
+      <point>
+        <x>508.78</x>
+        <y>141.93</y>
+      </point>
+    </joint_points>
+  </image>
+</annotation>
