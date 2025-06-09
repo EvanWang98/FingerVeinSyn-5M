@@ -7,20 +7,21 @@
 This dataset comprises **5 million synthetic finger vein images** generated using the **FVeinSyn** framework, specifically designed to advance research in **finger vein recognition**. The primary objective is to provide a comprehensive resource for the development. This dataset is the **largest publicly available finger vein dataset** to date‌.
 
 ### ✨News ！！！ 
-- **[2025.05] Dataset v1.0 officially released!**
-- **[2025.05] Datasets will be released progressively!**
+- **[2025.06.09] Annotations are now available!**
+- **[2025.05.30] Dataset v1.0 officially released!**
+- **[2025.05.30] Datasets will be released progressively!**
 
 
 ### Key Characteristics
-- **Total samples**: 5 Million (Size: 320*640)
+- **Total samples**: 5 Million (Size: 300*600)
 - **Unique identities**: 50,000 unique identities, per 100 samples
 - **Annotations**: Finger Vein patterns (Mask), Finger shapes (Mask), joint cavities (Coordinates), and vein regions of interest (Bounding box)
 - **Data format**: PNG and XML
 - **Intra-class variations**: *Geometric*(Shift, Rotate, roll, and Scale), *Degradation*(Motion blur, Optical blur, Skin scattering blur and Under/over-exposure)
 
 ## ☁️⬇️Download
-- [x] Raw synthetic finger vein data can available at [FingerVeinSyn-5M (Kaggle)](https://www.kaggle.com/datasets/evanwang98/fingerveinsyn-5m) 
-- [ ] Annotations can available at *come up soon*  
+- [x] Raw synthetic finger vein data can available at [FingerVeinSyn-5M (Kaggle)](https://www.kaggle.com/datasets/evanwang98/fingerveinsyn-5m) [FingerVeinSyn-5M (Part Ⅱ) (Kaggle)](https://www.kaggle.com/datasets/evanwang98/fingerveinsyn-5m-part)
+- [x] Annotations can available at [Annotations (Kaggle)](https://www.kaggle.com/datasets/evanwang98/fingerveinsyn-5m-part)   
 - [ ] Finger Shape Mask can available at *come up soon*  
 - [ ] Finger Pattern Mask can available at *come up soon*
 
