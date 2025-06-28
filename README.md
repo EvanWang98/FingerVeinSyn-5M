@@ -1,7 +1,7 @@
 # FingerVeinSyn-5M-A-Million-Scale-Synthetic-Finger-Vein-Dataset-and-Benchmark
 
 [![License](https://img.shields.io/badge/license-CC_BY_4.0-blue.svg)](LICENSE)
-[![DOI](https://zenodo.org/badge/DOI/xxxx.svg)](https://doi.org/xxxx)
+[![arXiv](https://img.shields.io/badge/arXiv-2506.03635-b31b1b.svg)](https://arxiv.org/abs/2506.03635)
 
 ## 📚Overview
 This dataset comprises **5 million synthetic finger vein images** generated using the **FVeinSyn** framework, specifically designed to advance research in **finger vein recognition**. The primary objective is to provide a comprehensive resource for the development. This dataset is the **largest publicly available finger vein dataset** to date‌.
