@@ -23,8 +23,8 @@ This dataset comprises **5 million synthetic finger vein images** generated usin
 ## ☁️⬇️Download
 - [x] Raw synthetic finger vein data can available at [FingerVeinSyn-5M (Kaggle)](https://www.kaggle.com/datasets/evanwang98/fingerveinsyn-5m) [FingerVeinSyn-5M (Part Ⅱ) (Kaggle)](https://www.kaggle.com/datasets/evanwang98/fingerveinsyn-5m-part)
 - [x] Annotations can available at [Annotations (Kaggle)](https://www.kaggle.com/datasets/evanwang98/fingerveinsyn-5m-part)   
-- [ ] Finger Shape Mask can available at [finger_shape_masks (Kaggle)](https://www.kaggle.com/datasets/evanwang98/fingerveinsyn-5m-part)   
-- [ ] Vein Pattern Mask can available at [vein_pattern_masks (Kaggle)](https://www.kaggle.com/datasets/evanwang98/fingerveinsyn-5m-part) 
+- [x] Finger Shape Mask can available at [finger_shape_masks (Kaggle)](https://www.kaggle.com/datasets/evanwang98/fingerveinsyn-5m-part)   
+- [x] Vein Pattern Mask can available at [vein_pattern_masks (Kaggle)](https://www.kaggle.com/datasets/evanwang98/fingerveinsyn-5m-part) 
 
 ## Dataset Structure
 ```
