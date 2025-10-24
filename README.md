@@ -7,6 +7,7 @@
 This dataset comprises **5 million synthetic finger vein images** generated using the **FVeinSyn** framework, specifically designed to advance research in **finger vein recognition**. The primary objective is to provide a comprehensive resource for the development. This dataset is the **largest publicly available finger vein dataset** to date‌.
 
 ### ✨News ！！！ 
+- **[2025.08.01] This work has been accepted by ACM MM25' ！！！**
 - **[2025.06.28] finger_shape_masks and vein_pattern_masks are now available!**
 - **[2025.06.09] Annotations are now available!**
 - **[2025.05.30] Dataset v1.0 officially released!**
@@ -170,5 +171,5 @@ If you use this dataset in your research, please cite:
 
 ## Contact
 For questions or reporting issues:
-- *Yinfan Wang*, *Jie Gui*
+- *Yifan Wang*, *Jie Gui*
 - Email: 230239767@seu.edu.cn
